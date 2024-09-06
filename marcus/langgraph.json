@@ -1,0 +1,19 @@
+{
+    "dockerfile_lines": [],
+        "graphs": {
+        "simple_graph": "./simple.py:graph",
+            "router": "./router.py:graph",
+                "agent": "./agent.py:graph"
+    },
+    "env": [
+        "TAVILY_API_KEY",
+        "ANTHROPIC_API_KEY",
+        "OPENAI_API_KEY",
+        "LANGCHAIN_API_KEY",
+        "LANGCHAIN_TRACING_V2"
+    ],
+        "python_version": "3.11",
+            "dependencies": [
+                "."
+            ]
+}
